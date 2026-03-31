@@ -34,7 +34,7 @@ The datasets used to support the findings of this study are included in this rep
 ## Interactive Simulation
 An interactive web-based simulation of the influence spread and containment strategies can be accessed directly in your browser without any setup.
 
-🌐 **[Launch Interactive Simulation Here](https://MirMurtazaa.github.io/agent-miscon/interactive_simulation_dark.html)** *(Note: Once you activate GitHub Pages as described in the setup guide, replace the URL above with your actual GitHub Pages link).*
+🌐 **[Launch Interactive Simulation Here](https://mirmurtazaa.github.io/agent-miscon/interactive_simulation_dark.html)** *(Note: Once you activate GitHub Pages as described in the setup guide, replace the URL above with your actual GitHub Pages link).*
 
 ---
 
