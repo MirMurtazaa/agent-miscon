@@ -22,12 +22,12 @@ Our results show that network topology, not agent strategy, is the dominant fact
 ---
 
 ## Data
-The datasets used to support the findings of this study are included in this repository. 
-* **`[Folder/Filename 1].csv`**: Contains the synthetic network structures (BA, ER, WS) used for baseline training and evaluation.
-* **`[Folder/Filename 2].csv`**: Contains the empirical real-world network datasets (Email, Facebook, Polblogs).
-* **`[Folder/Filename 3].csv`**: Contains the logged output metrics, structural entropy scores, and final influence spread results used for our statistical analysis.
+The datasets used to support the findings of this study are included in this repository. These files log the strategy choices, action selections, and influence spread metrics made by both the blocker and adversary agents during the evaluation games across various network topologies. The data in these files is utilized for analyzing strategy evolution over game rounds, calculating strategy pair frequencies, generating payoff matrices to find Nash equilibria, and plotting visualizations such as strategy heatmaps and Sankey diagrams.
 
-*(Note: Please update the filenames above to match your actual repository structure).*
+* **`e1_evaluation_strategy_log.csv`**: Contains the evaluation logs for Experiment 1, representing the baseline **Independent DQN Blocker vs. Independent DQN Adversary (IND vs. IND)** matchup.
+* **`e2_evaluation_strategy_log.csv`**: Contains the evaluation logs for Experiment 2, representing the **Minimax DQN Blocker vs. Independent DQN Adversary (MM vs. IND)** matchup.
+* **`e3_evaluation_strategy_log.csv`**: Contains the evaluation logs for Experiment 3, representing the **Minimax DQN Blocker vs. Minimax DQN Adversary (MM vs. MM)** matchup.
+* **`e4_evaluation_strategy_log.csv`**: Contains the evaluation logs for Experiment 4, representing the **Independent DQN Blocker vs. Minimax DQN Adversary (IND vs. MM)** matchup.
 
 ---
 
