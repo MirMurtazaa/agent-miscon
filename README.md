@@ -46,7 +46,7 @@ The model training, evaluation including the GAT and DQN components (Independent
 * **Implementation Code:** [View and Run on Kaggle](https://www.kaggle.com/code/mathifydata/rwminimaxdqn) 
 
 ### 2. Analysis Code (Google Colab)
-The results analysis, simulation code used to run the trained agents against the Competitive Linear Threshold (CLT) environment can be run interactively in Google Colab.
+The simulation code used to create the interactive simulation of the Competitive Linear Threshold (CLT) environment and diffusion can be accessed from this Google Colab.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CsZX8T4bZMw_5tz8HZRzHzX7dPiCXqNM?authuser=0#scrollTo=dxYFd-2EvCZb)
 
