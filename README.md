@@ -34,20 +34,19 @@ The datasets used to support the findings of this study are included in this rep
 ## Interactive Simulation
 An interactive web-based simulation of the influence spread and containment strategies can be accessed directly in your browser without any setup.
 
-🌐 **[Launch Interactive Simulation Here](https://mirmurtazaa.github.io/agent-miscon/interactive_simulation_dark.html)** *(Note: Once you activate GitHub Pages as described in the setup guide, replace the URL above with your actual GitHub Pages link).*
+🌐 **[Launch Interactive Simulation Here](https://mirmurtazaa.github.io/agent-miscon/interactive_simulation_dark.html)**
 
 ---
 
 ## Code & Reproduction
-To ensure full reproducibility of the AGENT-MISCON framework, the codebase has been divided into implementation (training) and evaluation (simulation/results) modules, hosted on cloud platforms for easy access.
+To ensure full reproducibility of the AGENT-MISCON framework, the codebase has been divided into implementation (training, evaluation) and analysis  (simulation/results) modules, hosted on cloud platforms for easy access.
 
-### 1. Model Implementation & Training (Kaggle)
-The heavy model training, including the GAT and DQN components (Independent and Minimax), is hosted on Kaggle. This notebook contains the core logic for the meta-strategy learning framework.
-* **Implementation Code:** [View and Run on Kaggle](https://www.kaggle.com/code/mathifydata/rwminimaxdqn/edit) 
-*(Note: For public sharing, you may want to share the public viewing link rather than the `/edit` URL).*
+### 1. Model Implementation (Kaggle)
+The model training, evaluation including the GAT and DQN components (Independent and Minimax), is hosted on Kaggle. This notebook contains the core logic for the meta-strategy learning framework.
+* **Implementation Code:** [View and Run on Kaggle](https://www.kaggle.com/code/mathifydata/rwminimaxdqn) 
 
-### 2. Simulation (Google Colab)
-The simulation code used to run the trained agents against the Competitive Linear Threshold (CLT) environment can be run interactively in Google Colab.
+### 2. Analysis Code (Google Colab)
+The results analysis, simulation code used to run the trained agents against the Competitive Linear Threshold (CLT) environment can be run interactively in Google Colab.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CsZX8T4bZMw_5tz8HZRzHzX7dPiCXqNM?authuser=0#scrollTo=dxYFd-2EvCZb)
 
